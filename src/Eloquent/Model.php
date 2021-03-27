@@ -1,12 +1,12 @@
 <?php
-namespace WeDevs\ORM\Eloquent;
+namespace KaizenCoders\ORM\Eloquent;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 /**
  * Model Class
  *
- * @package WeDevs\ERP\Framework
+ * @package KaizenCoders\wp-eloquent
  */
 abstract class Model extends Eloquent {
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace WeDevs\ORM\WP;
+namespace KaizenCoders\ORM\WP;
 
 
-use WeDevs\ORM\Eloquent\Model;
+use KaizenCoders\ORM\Eloquent\Model;
 
 class User extends Model
 {
@@ -12,6 +12,6 @@ class User extends Model
 
     public function meta()
     {
-        return $this->hasMany('WeDevs\ORM\WP\UserMeta', 'user_id');
+        return $this->hasMany('KaizenCoders\ORM\WP\UserMeta', 'user_id');
     }
 }

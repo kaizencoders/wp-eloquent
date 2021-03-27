@@ -1,22 +1,36 @@
 {
     "name": "kaizencoders/wp-eloquent",
+    "version": "1.0.0",
     "description": "Eloquent ORM for WordPress",
-    "keywords": ["wordpress", "plugin", "orm", "eloquent", "sql"],
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "orm",
+        "eloquent",
+        "php",
+        "sql"
+    ],
     "homepage": "https://github.com/kaizencoders/wp-eloquent",
-    "require": {
-        "illuminate/database": "^5.4",
-        "illuminate/pagination": "^5.4"
-    },
-    "license": "GPL-2.0-or-later",
+    "type": "library",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "KaizenCoders",
+            "homepage": "https://kaizencoders.com",
             "email": "hello@kaizencoders.com"
         }
     ],
+    "require": {
+        "illuminate/database": "^5.4",
+        "illuminate/pagination": "^5.4",
+        "php": ">=5.6"
+    },
     "autoload" : {
-      "psr-4" : {
-        "KaizenCoders\\ORM\\": "src/"
-      }
+        "classmap": [
+            "src/"
+        ],
+        "psr-4" : {
+            "KaizenCoders\\ORM\\": "src/"
+        }
     }
 }

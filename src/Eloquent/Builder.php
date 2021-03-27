@@ -1,12 +1,12 @@
 <?php
-namespace WeDevs\ORM\Eloquent;
+namespace KaizenCoders\ORM\Eloquent;
 
 use Illuminate\Database\Query\Builder as EloquentBuilder;
 
 /**
  * QueryBuilder Class
  *
- * @package WeDevs\ERP\Framework
+ * @package KaizenCoders\ERP\Framework
  */
 class Builder extends EloquentBuilder {
 

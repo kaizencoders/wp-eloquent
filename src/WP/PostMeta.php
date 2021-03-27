@@ -1,9 +1,9 @@
 <?php
 
-namespace WeDevs\ORM\WP;
+namespace KaizenCoders\ORM\WP;
 
 
-use WeDevs\ORM\Eloquent\Model;
+use KaizenCoders\ORM\Eloquent\Model;
 
 class PostMeta extends Model
 {
